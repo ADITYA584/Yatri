@@ -143,6 +143,8 @@ font-weight: 600;
 .input{
     border: none ;
     border-bottom: 1px solid black;
+    outline: none;
+    font-size: 1rem;
 }
 .label{
     font-size: 0.9rem;
@@ -153,6 +155,7 @@ font-weight: 600;
     grid-template-columns: repeat(2,1fr);
     column-gap: 7rem;
     row-gap: 1.5rem;
+    
 }
 .input_div{
     display: flex;
