@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./components/NavBar";
+import classes from "./App.module.css";
+import HeroSection from "./components/HeroSection";
+import WhySection from "./components/WhySection";
+import Sectiongrid from "./components/Sectiongrid";
+import Compare from "./components/Compare";
+import Textsection1 from "./components/Textsection1";
+import Textsection2 from "./components/Textsection2";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <NavBar />
+      <div className={`${classes.app}`}>
+        <HeroSection />
+        <WhySection />
+        <Sectiongrid />
+        <Compare />
+        <Textsection1 />
+        <Textsection2 />
+      </div>
+    </React.Fragment>
   );
 }
 

@@ -1,0 +1,56 @@
+.main{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 6.25rem;
+  
+}
+
+.table{
+    width: 100%;
+    border-spacing:  0.5rem 0 ;
+    margin-bottom: 6.25rem;
+}
+
+.thead{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    background-color: #4A7437 ;
+    text-align: center;
+}
+.thead>tr>td{
+    padding: 1.5rem 0;
+}
+
+.tbody{
+    background-color: #D5F2C8;
+}
+
+.tbody>tr>td{
+    padding: 1.25rem;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5rem;
+    place-items: center;
+    text-align: center;
+    padding:0 2rem;
+    font-size: 1.07rem;
+}
+
+.feature_div{
+    display: grid;
+    gap: 1.35rem;
+    place-items: center;
+    padding: 0 3.5rem;
+}
+
+.featureHeading{
+    font-size: 1.4rem;
+    color:#216900 ;
+    font-weight: 400;
+}
